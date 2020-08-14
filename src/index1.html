@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>格力董明珠店</title>
+    <link rel="stylesheet" href="./sass/index1.css">
+    <link rel="stylesheet" href="./icon/iconfont.css">
+    <script src="./script/require.js" async="true" defer data-main="./script/main.js" id="currentpage" targetpage="index1"></script>
+</head>
+
+<body>
+    <header></header>
+    <div id="head"></div>
+    <nav></nav>
+    <div class="banner"></div>
+    <div id="nav"></div>
+    <main></main>
+    <footer></footer>
+
+    <script src="./script/jquery.js"></script>
+
+    <script>
+        $("header").load("top.html");
+        $("#head").load("head.html");
+        $("nav").load("nav.html");
+        $(".banner").load("banner.html");
+        $("main").load("main.html");
+        $("footer").load("footer.html");
+    </script>
+    <!-- <script src="./script/jquery.lazyload.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(function() { //和拼接的元素放在一起。
+            $("img.lazy").lazyload({
+                effect: "fadeIn" //图片显示方式
+            });
+        });
+    </script> -->
+</body>
+
+</html>

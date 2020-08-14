@@ -1,0 +1,67 @@
+.banner {
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+
+//图片
+.imgBox {
+    ul {
+        position: absolute;
+        width: 600%;
+        height: 450px;
+    }
+    li {
+        float: left;
+        width: percentage(100/6)/100;
+        height: 100%;
+        span:nth-of-type(1) {
+            display: block;
+            background: url('https://gelimall.oss-cn-shenzhen.aliyuncs.com/album/2020/5/17/174b64de-9655-4999-94ec-edf835463b0c.jpg') no-repeat center;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+        }
+    }
+    li:nth-of-type(2) {
+        span {
+            background-image: url(https://gelimall.oss-cn-shenzhen.aliyuncs.com/album/2020/6/20/891ed7e1-1d18-418c-9d81-f30a32d0bfa1.jpg);
+        }
+    }
+    li:nth-of-type(3) {
+        span {
+            background-image: url(https://gelimall.oss-cn-shenzhen.aliyuncs.com/album/2020/4/9/211ec53d-f389-4b23-b8db-58ea14227fa7.jpg);
+        }
+    }
+    li:nth-of-type(4) {
+        span {
+            background-image: url(https://gelimall.oss-cn-shenzhen.aliyuncs.com/album/2020/4/10/7cc67fc8-b083-449d-a88c-ca7ce10b1fc7.jpg);
+        }
+    }
+    li:nth-of-type(5) {
+        span {
+            background-image: url(https://gelimall.oss-cn-shenzhen.aliyuncs.com/album/2020/4/9/57b66f57-0168-44fd-b700-262fa4436a62.jpg);
+        }
+    }
+}
+
+//圆点
+.ydBox {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 30px;
+    cursor: pointer;
+    li {
+        width: 10px;
+        height: 10px;
+        margin-right: 5px;
+        border-radius: 50%;
+        background: transparent;
+        float: left;
+        border: 1px solid #999999;
+    }
+    .listLi {
+        background: #fff;
+    }
+}

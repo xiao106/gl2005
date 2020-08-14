@@ -1,0 +1,132 @@
+//导航
+nav {
+    height: 36px;
+    //导航列表
+    .nav-list {
+        margin-right: 20px;
+        width: 174px;
+        height: 36px;
+        line-height: 36px;
+        color: #fff;
+        background: #cc0000;
+        text-align: center;
+        position: relative;
+        cursor: pointer;
+        .iconfont {
+            display: inline-block;
+            width: 40px;
+            margin-right: 5px;
+            color: #fff;
+            font-size: 18px;
+            text-align: center;
+        }
+        a {
+            color: #fff;
+            font-size: 12px;
+        }
+    }
+    //菜单 
+    .menu {
+        width: 174px;
+        height: 450px;
+        background: rgba(0, 0, 0, .55);
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 9999;
+        li {
+            width: 100%;
+            color: #fff;
+            font-size: 12px;
+            text-align: left;
+            margin: 0;
+            line-height: 38px;
+            span {
+                display: block;
+                float: right;
+                margin-right: 20px;
+                font-size: 14px;
+            }
+            &:hover {
+                background: #fff;
+                span {
+                    color: #cc0000;
+                }
+                .submenu {
+                    display: block;
+                }
+            }
+            &:hover>a {
+                color: #cc0000;
+            }
+        }
+    }
+    //子菜单
+    .submenu {
+        width: 990px;
+        min-height: 450px;
+        box-sizing: border-box;
+        border: 1px solid #d3d3d3;
+        background: #fff;
+        position: absolute;
+        left: 174px;
+        top: 0px;
+        color: #999;
+        z-index: 1000;
+        display: none;
+        box-shadow: 6px 3px 8px 0 rgba(195, 183, 183, 0.28);
+        a {
+            color: #999;
+            font-size: 16px;
+            &:hover {
+                color: #cc0000;
+            }
+        }
+        dl {
+            width: 500px;
+            margin: 20px 0;
+        }
+        dt {
+            width: 100px;
+            float: left;
+            text-align: right;
+            margin-right: 20px;
+            span {
+                display: inline-block;
+                color: #999;
+                padding: 0 20px;
+            }
+        }
+        dd {
+            float: left;
+            border-bottom: 1px dashed #000;
+            a {
+                font-size: 12px;
+                display: inline-block;
+                margin: 0 15px;
+            }
+        }
+    }
+    .items {
+        width: 300px;
+        min-height: 450px;
+        position: absolute;
+        left: 690px;
+        right: 0;
+        background-color: #fafafa;
+    }
+    li {
+        float: left;
+        margin: 0 10px;
+        a {
+            height: 36px;
+            line-height: 36px;
+            font-size: 14px;
+            color: #424242;
+            font-weight: normal;
+            &:hover {
+                color: #707070;
+            }
+        }
+    }
+}

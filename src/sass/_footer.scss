@@ -1,0 +1,33 @@
+.footer_top {
+    width: 960px;
+    margin: 0px auto;
+    background: #fff;
+    border-top: 1px solid #e2e2e2;
+    overflow: hidden;
+    padding: 37px 90px 0 150px;
+    li {
+        float: left;
+        width: 135px;
+        line-height: 26px;
+    }
+    dt {
+        height: 35px;
+        line-height: 35px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    a {
+        color: #b2b2b2;
+        font-size: 12px;
+    }
+}
+
+.footer_bot {
+    background: #fff;
+    padding: 60px 0 20px 15px;
+    p {
+        color: #b2b2b2;
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

@@ -1,0 +1,15 @@
+@charset "utf-8";
+@import "reset";
+$bxSize:1200px;
+.wrap {
+    width: $bxSize;
+    margin: 0 auto;
+}
+
+.float_left {
+    float: left;
+}
+
+.float_right {
+    float: right;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <link rel="stylesheet" href="./sass/login.css">
+    <link rel="stylesheet" href="./icon/iconfont.css">
+    <script src="./script/require.js" async="true" defer data-main="./script/main.js" id="currentpage" targetpage="login"></script>
+</head>
+
+<body>
+    <header class="wrap">
+        <h1>
+            <img src="https://gelimall.oss-cn-shenzhen.aliyuncs.com/album/2020/4/2/86f141a8-3876-4568-86f0-3c343430775c.gif" alt="格力董明珠店">
+        </h1>
+        <h2><span>|</span>欢迎登录</h2>
+    </header>
+    <main>
+        <div class="main_left float_left">
+            <img src="https://mall.gree.com/assets/images/login_pic1.png" alt="">
+        </div>
+        <div class="main_right float_right">
+            <form action="">
+                <ul>
+                    <li>
+                        <input type="text" placeholder="手机号/用户名/邮箱" class="username">
+                        <i class="iconfont icon-denglu1"></i>
+                    </li>
+                    <li>
+                        <input type="password" placeholder="登陆密码" class="pass">
+                        <i class="iconfont icon-suo"></i>
+                    </li>
+                    <li><button class="btn">登录</button></li>
+                    <li>
+                        <a href="#">
+                            <i class="iconfont icon-qq"></i>
+                            <span>QQ</span>
+                        </a>
+                        <a href="#">
+                            <i class="iconfont icon-3-copy"></i>
+                            <span>微信</span>
+                        </a>
+                    </li>
+                    <li><input type="checkbox" style="width: auto; vertical-align: middle;" class="check111">记住密码</li>
+                </ul>
+                <p>
+                    <a href="reg.html">免费注册</a>
+                    <a href="#">忘记密码?</a>
+                </p>
+                <P><em></em></P>
+
+            </form>
+        </div>
+    </main>
+    <footer id="foot">
+
+    </footer>
+    <script src="./script/jquery.js"></script>
+    <script>
+        $("#foot").load("footer.html")
+    </script>
+</body>
+
+</html>

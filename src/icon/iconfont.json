@@ -1,0 +1,275 @@
+{
+  "id": "1994242",
+  "name": "格力商城",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2022037",
+      "name": "箭头",
+      "font_class": "jiantou-copy",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "2794163",
+      "name": "右箭头",
+      "font_class": "icon",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "3198807",
+      "name": "箭头",
+      "font_class": "jiantou",
+      "unicode": "e6b5",
+      "unicode_decimal": 59061
+    },
+    {
+      "icon_id": "8310937",
+      "name": "服务评价",
+      "font_class": "fuwupingjia",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "10987353",
+      "name": "do-windows",
+      "font_class": "do-windows",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "14814879",
+      "name": "五角星 星型 ",
+      "font_class": "wujiaoxingxingxing",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "1513759",
+      "name": "微信",
+      "font_class": "3-copy",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "1624765",
+      "name": "登录",
+      "font_class": "denglu",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "4347480",
+      "name": "锁",
+      "font_class": "suo",
+      "unicode": "ea1f",
+      "unicode_decimal": 59935
+    },
+    {
+      "icon_id": "6270865",
+      "name": "登录",
+      "font_class": "denglu1",
+      "unicode": "e892",
+      "unicode_decimal": 59538
+    },
+    {
+      "icon_id": "6369319",
+      "name": "QQ",
+      "font_class": "qq-bind",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "7893244",
+      "name": "qq",
+      "font_class": "qq",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "8359785",
+      "name": "微信",
+      "font_class": "goumaiweixin-copy-copy",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "14419696",
+      "name": "锁",
+      "font_class": "suo1",
+      "unicode": "e84c",
+      "unicode_decimal": 59468
+    },
+    {
+      "icon_id": "4281050",
+      "name": "视频",
+      "font_class": "shipin",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "1094493",
+      "name": "全部商品",
+      "font_class": "quanbushangpin",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "98690",
+      "name": "会员权益_售后无忧_1px",
+      "font_class": "huiyuanquanyishouhouwuyou1px",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "98691",
+      "name": "会员权益_售后无忧_2px",
+      "font_class": "huiyuanquanyishouhouwuyou2px",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "157130",
+      "name": "v",
+      "font_class": "v",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "813980",
+      "name": "包邮",
+      "font_class": "baoyou",
+      "unicode": "e72d",
+      "unicode_decimal": 59181
+    },
+    {
+      "icon_id": "824931",
+      "name": "配件",
+      "font_class": "peijian",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "1054747",
+      "name": "售后",
+      "font_class": "shouhou",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "1219669",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "1374732",
+      "name": "心形",
+      "font_class": "xinxingleft",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "2165163",
+      "name": "冰箱",
+      "font_class": "bingxiang",
+      "unicode": "e687",
+      "unicode_decimal": 59015
+    },
+    {
+      "icon_id": "2729096",
+      "name": "五角星",
+      "font_class": "start",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "4560917",
+      "name": "正品保障",
+      "font_class": "zhengpinbaozhang",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "7087362",
+      "name": "房子",
+      "font_class": "fangzi-copy",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "7467151",
+      "name": "购物车",
+      "font_class": "gouwuche1",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "7666410",
+      "name": "洗衣机",
+      "font_class": "xiyiji",
+      "unicode": "e6c6",
+      "unicode_decimal": 59078
+    },
+    {
+      "icon_id": "7848223",
+      "name": "热水器",
+      "font_class": "reshuiqi",
+      "unicode": "e696",
+      "unicode_decimal": 59030
+    },
+    {
+      "icon_id": "9924747",
+      "name": "雪花",
+      "font_class": "xuehua",
+      "unicode": "e6d2",
+      "unicode_decimal": 59090
+    },
+    {
+      "icon_id": "10514892",
+      "name": "心形",
+      "font_class": "xinxing1",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "11020176",
+      "name": "风扇",
+      "font_class": "fengshan",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    },
+    {
+      "icon_id": "11031669",
+      "name": "空调",
+      "font_class": "kongtiao",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "12851128",
+      "name": "客服",
+      "font_class": "kefu",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "13908516",
+      "name": "五角星",
+      "font_class": "start1",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "14131198",
+      "name": "放大镜",
+      "font_class": "fangdajing",
+      "unicode": "e789",
+      "unicode_decimal": 59273
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+@charset "utf-8";
+// 变量存储
+// 字体Unicode编码 微软雅黑:\5FAE\8F6F\96C5\9ED1 , 宋体:\5B8B\4F53
+$pcFont: ‘\5FAE\8F6F\96C5\9ED1‘,
+‘\5B8B\4F53‘,
+arial;
+$defaultColor: #333;
+$mobileFont: ‘Helvetica Neue‘,
+Helvetica,
+STHeiTi,
+Microsoft YaHei,
+sans-serif,
+Microsoft JhengHei,
+Arial;
+$browser: null;
+%display {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+%text-indent {
+    font-size: 0;
+    text-indent: -99999em;
+    overflow: hidden;
+}
+
+%box-sizing {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+// 设置动画名称
+@mixin animation($aniName) {
+    -webkit-animation: $aniName;
+    -moz-animation: $aniName;
+    -o-animation: $aniName;
+    animation: $aniName;
+}
+
+// 设置延迟执行时间
+@mixin animation-delay($time) {
+    -webkit-animation-delay: $time;
+    -moz-animation-delay: $time;
+    -o-animation-delay: $time;
+    animation-delay: $time;
+}
+
+// 设置阴影
+@mixin box-shadow($shadow...) {
+    -webkit-box-shadow: $shadow;
+    -moz-box-shadow: $shadow;
+    -o-box-shadow: $shadow;
+    box-shadow: $shadow;
+}
+
+// 圆角
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -o-border-radius: $radius;
+    border-radius: $radius;
+}
+
+// 设置过渡
+@mixin transition($transition...) {
+    -webkit-transition: $transition;
+    -moz-transition: $transition;
+    -o-transition: $transition;
+    transition: $transition;
+}
+
+// 设置旋转位置
+@mixin transform-origin($origin...) {
+    -webkit-transform-origin: $origin;
+    -moz-transform-origin: $origin;
+    -o-transform-origin: $origin;
+    transform-origin: $origin;
+}
+
+@mixin transform($transform...) {
+    -webkit-transform: $transform;
+    -moz-transform: $transform;
+    -o-transform: $transform;
+    transform: $transform;
+}
+
+// 设置关键帧
+@mixin keyframes($name) {
+    @-webkit-keyframes #{$name} {
+        $browser: ‘-webkit-‘;
+        @content;
+    }
+    @-moz-keyframes #{$name} {
+        $browser: ‘-moz-‘;
+        @content;
+    }
+    @-o-keyframes #{$name} {
+        $browser: ‘-o-‘;
+        @content;
+    }
+    @keyframes #{$name} {
+        $browser: ‘‘;
+        @content;
+    }
+}
+
+
+/* ********************重置样式 reset******************** */
+
+
+/* *********PC端********** */
+
+body,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form,
+figure,
+figcaption {
+    margin: 0px;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font: 14px/1.5 $pcFont;
+    width: 100%;
+    color: $defaultColor;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b {
+    font-weight: normal;
+}
+
+
+/* 清除点击出现虚拟框 */
+
+a {
+    outline: none;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    &:focus {
+        outline: 0;
+    }
+    &:link,
+    &:visited {
+        color: $defaultColor;
+        text-decoration: none;
+    }
+}
+
+a img {
+    border: none;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+u {
+    text-decoration: none;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font: 12px/1.5 $pcFont;
+}
+
+
+/* 清除浮动 */
+
+.clearfix {
+    *zoom: 1;
+    &:after {
+        display: block;
+        content: "\200B";
+        clear: both;
+        height: 0;
+        visibility: hidden;
+        overflow: hidden;
+    }
+}

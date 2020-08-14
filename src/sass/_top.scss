@@ -1,0 +1,54 @@
+header {
+    width: 100%;
+    background: rgba(95, 95, 95, .1);
+}
+
+.top {
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+    color: rgba(95, 95, 95, .4);
+    .top_left {
+        margin-left: 50px;
+        a {
+            color: #cc0000;
+            margin: 0 5px;
+        }
+    }
+    .top_right {
+        li {
+            float: left;
+            margin: 0 5px;
+            position: relative;
+            z-index: 5;
+            a {
+                color: #747474;
+                &:hover {
+                    color: #cc0000;
+                }
+            }
+            div {
+                width: 100%;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                background: #fff;
+                display: none;
+                border: 1px solid #E8E8E8;
+                a {
+                    display: block;
+                    text-align: center;
+                    line-height: 20px;
+                }
+            }
+            &:hover>div {
+                display: block;
+            }
+        }
+        span {
+            float: left;
+            margin: 0 10px;
+            color: #747474;
+        }
+    }
+}

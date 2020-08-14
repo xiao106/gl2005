@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    <link rel="stylesheet" href="./sass/reg.css">
+    <link rel="stylesheet" href="./icon/iconfont.css">
+    <script src="./script/require.js" async="true" defer data-main="./script/main.js" id="currentpage" targetpage="reg"></script>
+</head>
+
+<body>
+    <header></header>
+    <div id="login-t">
+        <div class="wrap clearfix login_title ">
+            <h1>
+                <img src="https://gelimall.oss-cn-shenzhen.aliyuncs.com/album/2020/4/2/86f141a8-3876-4568-86f0-3c343430775c.gif" alt="格力董明珠店">
+            </h1>
+            <h2><span>|</span>欢迎注册</h2>
+        </div>
+    </div>
+
+    <main>
+        <div class="tab_title">
+            <ul class="clearfix">
+                <li>用户注册</li>
+                <li style="display: none;">邮箱注册</li>
+            </ul>
+        </div>
+        <div class="tab_form">
+            <form action="http://localhost/phpmysql/gelishangcheng/php/reg.php" method="POST">
+                <dl>
+                    <dt>
+                        <label for="">
+                            <b>*</b>用户名：
+                        </label>
+                    </dt>
+                    <dd>
+                        <input type="text" placeholder="请输入用户名" class="username" name="username">
+                        <i class="iconfont icon-denglu1"></i>
+                    </dd>
+                    <em></em>
+                </dl>
+                <dl>
+                    <dt>
+                        <label for="">
+                            <b>*</b>请设置密码：
+                        </label>
+                    </dt>
+                    <dd>
+                        <input type="password" placeholder="请输入密码" class="pass1" name="password">
+                        <i class="iconfont icon-suo"></i>
+                    </dd>
+                    <em></em>
+                </dl>
+                <dl>
+                    <dt>
+                        <label for="">
+                            <b>*</b>请确认密码：
+                        </label>
+                    </dt>
+                    <dd>
+                        <input type="password" placeholder="请再次输入密码" class="pass2" name="pass1">
+                        <i class="iconfont icon-suo"></i>
+                    </dd>
+                    <em></em>
+                </dl>
+                <dl>
+                    <dt>
+                        <label for="">
+                            <b>*</b>验证码：
+                        </label>
+                    </dt>
+                    <dd>
+                        <input type="text" placeholder="请输入验证码" class="yzm" name="num">
+                        <span class="num">获取验证码</span>
+                    </dd>
+                    <em></em>
+                </dl>
+                <dl>
+                    <dt>
+                        &nbsp;
+                    </dt>
+                    <dd>
+                        <input type="checkbox" checked />
+                        <a href="#">同意《格力官方商城用户注册协议》和《隐私声明》</a>
+                    </dd>
+                </dl>
+                <div class="btn">
+                    <input type="submit" value="同意协议并注册" name="submit">
+                </div>
+            </form>
+        </div>
+
+    </main>
+
+    <footer id="foot"></footer>
+    <script src="./script/jquery.js"></script>
+    <script>
+        $("header").load("top.html");
+        $("#foot").load("footer.html");
+    </script>
+</body>
+
+</html>
